@@ -22,11 +22,17 @@ of the function signal_error().
 Create ~/.my.cnf file with credentials
 
 [mysql]
+
 user=myuser
+
 password=secret
 
+
 [mysqldump]
+
 user=myuser
+
 password=secret
+
 
 $ chmod 660 ~/.my.cnf
