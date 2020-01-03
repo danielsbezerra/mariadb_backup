@@ -17,7 +17,10 @@ The adoption of "||" as error handler doesn't ensure the other part gets execute
 exceptional conditions (signals), which is pretty much what one expects from finally. That's the reason 
 of the function signal_error().
 
-## Strongly recomended: create ~/.my.cnf file with credentials
+## Strongly recomended:
+
+Create ~/.my.cnf file with credentials
+
 [mysql]
 user=myuser
 password=secret
